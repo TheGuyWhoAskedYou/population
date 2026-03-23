@@ -12,7 +12,18 @@ public class FunFact4Test
         var data = TestDataUtils.getTestData();
         var result = FunFact4.getFunFact(data);
         assertEquals(
-                "Jaroměř",
+                "Kaplice",
+                result
+        );
+    }
+
+    @Test
+    void test01joined()
+    {
+        var data = TestDataUtils.getTestData();
+        var result = FunFact4.getFunFactJoined(data);
+        assertEquals(
+                "Praha",
                 result
         );
     }

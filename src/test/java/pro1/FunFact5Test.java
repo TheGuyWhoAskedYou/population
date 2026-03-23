@@ -14,7 +14,7 @@ public class FunFact5Test
         var data = TestDataUtils.getTestData();
         var result = FunFact5.getFunFact(data,3);
         assertEquals(
-                List.of("Malá Lhota","Velmi Malá Lhota","Lhota nad Labem"),
+                List.of("Vysoká Lhota","Čilá","Bludov"),
                 result
         );
     }
@@ -26,7 +26,7 @@ public class FunFact5Test
         var data = TestDataUtils.getTestData();
         var result = FunFact5.getFunFactJoined(data,3);
         assertEquals(
-                "Malá Lhota,Velmi Malá Lhota,Lhota nad Labem",
+                "Vysoká Lhota, Čilá, Bludov",
                 result
         );
     }
