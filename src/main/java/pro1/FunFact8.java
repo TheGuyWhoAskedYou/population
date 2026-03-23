@@ -7,9 +7,9 @@ import java.util.List;
 
 public class FunFact8 {
     /**
-     * @return TODO: Názvy okresů, ve kterých je nějaká obec s více než 100 000 obyvateli
+     * @return TODO: Průměrný věk v celé ČR
      */
-    public static List<String> getFunFact(List<Muni> data) {
-        return null;
+    public static double getFunFact(List<Muni> data) {
+        return 0;
     }
 }

@@ -4,15 +4,15 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FunFact8Test
+public class FunFact10Test
 {
     @Test
     void test01()
     {
         var data = TestDataUtils.getTestData();
-        var result = FunFact8.getFunFact(data);
+        var result = FunFact7.getFunFact(data);
         assertEquals(
-                40.1,
+                "Praha-východ",
                 result
         );
     }
